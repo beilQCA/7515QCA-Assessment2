@@ -72,13 +72,13 @@ I had found a Chinese supplier (as noted on the Discussion Board) who can manufa
 
 <span>                | <span>                 
 ---------------------- | ---------------------- 
-![Image](POV_Ring_Solidworks.jpg) | ![Image](POV_Ring_Tech.jpg)
+![Image](POV_Ring_Tech.jpg) | ![Image](POV_Ring_Solidworks.jpg)
   
 I have on hand an APA102 5050 144 LED/m strip which was purchased several years ago for this purpose and given the frame circumference, will provide around 96 pixels. It is the waterproof version so has been embedded in silicone which adds to the weight; and unfortunately has started to yellow slightly - though will do for this project.
 
 <span>                | <span>                 | <span> 
 ---------------------- | ---------------------- | ----------------------
-![Image](_MG_3346.jpg) | ![Image](_MG_3348.jpg) | ![Image](_MG_3345.jpg)
+![Image](_MG_3345.jpg) | ![Image](_MG_3348.jpg) | ![Image](_MG_3346.jpg)
  
 
 
