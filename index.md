@@ -5,7 +5,7 @@ You will use this workbook to keep track of your progress through the course and
 When you have completed the template, submit the link to the GitHub Pages site for this repository as a link in Learning@Griffith. The link should be something like [https://qcainteractivemedia.github.io/1701QCA-Assessment2/](https://qcainteractivemedia.github.io/1701QCA-Assessment2/) where `qcainteractivemedia` is replaced with your GitHub username and `1701QCA-Assessment2` is replaced with whatever you called the repository this template is contained in when you set it up.
 
 ## Project working title ##
-*Insert a name for the project as you conceive of it at the moment.*
+Interactive Persistence of Vision Globe
 
 ## Related projects ##
 *Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the appropriate folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing.*
@@ -28,18 +28,59 @@ This project is related to mine because *insert reasons here*.
 
 ## Conceptual progress ##
 
-### Design intent ###
-*Include your design intent here. It should be about a 10 word phrase/sentence.*
+### Design intent 1###
+*A digital analogue clock with remote interface*
 
 ### Design concept 1 ###
-*Outline three design concepts, each developed to a point where you anticipate it would be feasible to complete by the end of the course. Each should have a summary of the idea, a rough sketch of what it might be like, and any other notes you created while exploring the idea.* 
 
-*Put the first two design concepts in the sections "Design concept 1" and "Design concept 2". Then put the third, with more development in the section "Final design concept".*
+*Two analogue clock arms (minute hand and hour hand) with digital displays at the tip of each displaying digits representing time. Basic clock functions like alarm and set-time can be acheived using a remote control/interface*
+
+I had plans on focusing on this concept and had spent a considerable amount of time exploring design and fabrication technologies to see it materialise. However, due to the C-19 situation, it became apparent that accessing required fabrication machinery and part logistics was not going to be achievable in the timeframe. 
+
+I had taken the prototype as far as currently possible; having designed the parts to be fabricated in SolidWorks, and placing orders for the various electronic componentry that is needed including low-profile NEMA stepper motors, side-lit fibre optic cable, circular LCD displays and hollow slip-ring capsule. A quote was sought from a Chinese CNC machining service to fabricate the anodised aluminium parts however this was far more expensive than I had anticipated. The quote for a single clock-face was $1000 USD + $150 USD shipping! Obviously severely overpriced given I sourced 6060 aluminium plates for the 3 parts from another Chinese supplier and this was only going to cost $100 including shipping. So I will probably go down this route and use a local CNC and anodising service (there are a number of local workshops providing prototyping services).
+
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](.jpg) | ![Image](.jpg) | ![Image](.jpg)
+
+This is a project that I will continue developing beyond this course, when global circumstances return to normal.
+
 
 ### Design concept 2 ###
-*Put details here.*
+*The clock uses a POV display to create the illusion of an analogue clock face. Clock functions are achieved with voice control.*
+
+### Design concept 3 ###
+*The clock uses side-lit fibre optic cable to illuminate time in a format analogous to an analogue clock. Clock is controlled using a smart phone App.*
+
+### Final Design intent ###
+*A 3D POV display that can play mpg files.*
 
 ### Final design concept ###
+
+Given the issues with moving forward with the original design intent/concept as noted above, I have switched direction to attempt this project which is potentially within the realms of possibility within the timeframe. 
+
+I've been toying with this idea for a few years now and will attempt to use this opportunity to build it. 
+
+Once more I've had to compromise on the design to address the current challenges with fabrication. Specifically, the original idea was to 3D print a LARGE (300mm) circular frame which would house the electronics and LED's... unfortunately, the machines available to us limits this to a maximum diameter of 215mm. This will be adequate for prototyping it for this class but not what I would like to achieve ultimately; since I envisage using this to display my moving-image productions in a gallery setting. The limiting factor is the size of the circular frame and the density of pixels (LEDs) housed on its circumference. The more dense the pixels, the greater the display resolution.
+
+I designed the 3D print model using SolidWorks, and emailed tech support the STL file for printing. The design was based on one that I had seen at https://www.instructables.com/id/POV-Globe-24bit-True-Color-and-Simple-HW/.
+
+My design includes holes down the central supports for easy attachment of the control circuitry. The print took about 5 hours to fabricate and I received it in the post the next day. Even at 50% infill, it is surprisingly rigid - weighing about 90g.
+
+I had found a Chinese supplier (as noted on the Discussion Board) who can manufacture a 5mm wide APA102 2020 RGB LED strip with a 200 LEDs/m density but his minimum order is 5m with a door-to-door delivery price of ~$300 AUD. While tempting, I might hold off on this purchase for now until I have succeeded building a prototype with the materials on hand.
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](POV_Ring_Solidworks.jpg) | ![Image](POV_Ring_Tech.jpg) | ![Image](_MG_3345.jpg)
+
+I have on hand an APA102 5050 144 LED/m strip which was purchased several years ago for this purpose and given the frame circumference, will provide around 96 pixels. It is the waterproof version so has been embedded in silicone which adds to the weight; and unfortunately has started to yellow slightly - though will do for this project.
+
+<span>                | <span>                 
+---------------------- | ---------------------- 
+![Image](_MG_3346.jpg) | ![Image](_MG_3348.jpg) 
+
+
 *This more fully developed concept should include consideration of the interaction scheme, technical functionality, fabrication approach, materials to be used, and aesthetic.*
 
 ### Interaction flowchart ###
