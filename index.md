@@ -44,6 +44,21 @@ I had taken the prototype as far as currently possible; having designed the part
 ---------------------- | ---------------------- 
 ![Image](Clock_screencapture2.jpg) | ![Image](Clock_screencapture.jpg)
 
+At the heart of the clock is the Micro:Bit and the new HD Halo breakout board which contains a plethora of added features including 60 tiny 'ZIP' RGB LED's, a real-time clock, a microphone and a traditional AA battery cage mounted on the back to name a few. I thought about how I could expand on this and began trawling through my arsenal of electronic paraphenalia for inspiration. I found a meter of 2mm side-lit optic fibre and immediately contemplated using this with the onboard LEDs. I ordered another 5m and set about designing the clock 'face-plate' that would accommodate lengths of optic fibre for each of the 60 LEDs. The idea being that this would represent the second-hand illuminating each in sequence to enhance the visual effect of the clock.
+
+I wanted to show off the electronic core; leaving it exposed for display. I set about deriving various dimensions from the key components on the board which would dictate the size of the face-plate central hole - enshrouding the central microbit and leaving sufficient coverage at the edge containing the LEDs. The existing bore-holes on the Halo would be used for mounting the plate to. Attention was paid to the offset required to align each of the LEDs with the slits required for aligning the embedded optic fibre so that the start of each slit is directly over the LED. The end-face of the fibre would be aligned perpendicular - protruding from the face-plate directly above the LED to ensure full illumination along the lengths of optic fibre. Black heat-shrink tubing would be used over these protruding ends to ensure the light doesn't contaminate neighboring fibres.
+
+Then the idea of using motor-driven arms came about with a couple of 12CH capsule slip-rings I had, though after some consideration realised there would be an issue having these operate in tandem; supplying each of the arms signals and power for any electronics to act independent and unhindered of the movement. A little research located a possible solution, utilising a bore-hole (hollow) slip ring. The bore-hole ring would allow me to use one of the existing rings to feed through the hole allowing two armatures to operate independently as required. 
+
+Another two low-profile NEMA stepper motors were ordered to drive the armatures. Close inspection of the Halo's battery cage reveals that it could easily be detached from the board as it is merely attached with two nut/bolt assemblies and two soldered wires. It is bulky and I would rather remove it and use the space to support motors and other supporting electronics. The board designers were considerate enough to provide solder pads to power the board + Micro:Bit via a 5V connection, so I'll probably add a surface mount JST connector here so I can attach a LiPo battery. 
+
+I wanted to use some mechanism to display the digits of time as each arm moved through its programmed rotation and a brief virtual trip down the Aliexpress mall found some small circular LCD displays complete with driving module. I promptly ordered a pair and used the dimensions conveniently provided by the supplier to drive the armature design.
+
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](_MG_3272.jpg) | ![Image](_MG_3301.jpg) | ![Image](_MG_3284.jpg)
+ 
 This is a project that I will continue developing beyond this course, when global circumstances return to normal.
 
 
