@@ -40,9 +40,9 @@ I had plans on focusing on this concept and had spent a considerable amount of t
 I had taken the prototype as far as currently possible; having designed the parts to be fabricated in SolidWorks, and placing orders for the various electronic componentry that is needed including low-profile NEMA stepper motors, side-lit fibre optic cable, circular LCD displays and hollow slip-ring capsule. A quote was sought from a Chinese CNC machining service to fabricate the anodised aluminium parts however this was far more expensive than I had anticipated. The quote for a single clock-face was $1000 USD + $150 USD shipping! Obviously severely overpriced given I sourced 6060 aluminium plates for the 3 parts from another Chinese supplier and this was only going to cost $100 including shipping. So I will probably go down this route and use a local CNC and anodising service (there are a number of local workshops providing prototyping services).
 
 
-<span>                | <span>                 | <span> 
----------------------- | ---------------------- | ----------------------
-![Image](.jpg) | ![Image](.jpg) | ![Image](.jpg)
+<span>                | <span>                 
+---------------------- | ---------------------- 
+![Image](Clock_screencapture2.jpg) | ![Image](Clock_screencapture.jpg)
 
 This is a project that I will continue developing beyond this course, when global circumstances return to normal.
 
@@ -70,15 +70,16 @@ My design includes holes down the central supports for easy attachment of the co
 
 I had found a Chinese supplier (as noted on the Discussion Board) who can manufacture a 5mm wide APA102 2020 RGB LED strip with a 200 LEDs/m density but his minimum order is 5m with a door-to-door delivery price of ~$300 AUD. While tempting, I might hold off on this purchase for now until I have succeeded building a prototype with the materials on hand.
 
-<span>                | <span>                 | <span> 
----------------------- | ---------------------- | ----------------------
-![Image](POV_Ring_Solidworks.jpg) | ![Image](POV_Ring_Tech.jpg) | ![Image](_MG_3345.jpg)
-
-I have on hand an APA102 5050 144 LED/m strip which was purchased several years ago for this purpose and given the frame circumference, will provide around 96 pixels. It is the waterproof version so has been embedded in silicone which adds to the weight; and unfortunately has started to yellow slightly - though will do for this project.
-
 <span>                | <span>                 
 ---------------------- | ---------------------- 
-![Image](_MG_3346.jpg) | ![Image](_MG_3348.jpg) 
+![Image](POV_Ring_Solidworks.jpg) | ![Image](POV_Ring_Tech.jpg)
+  
+I have on hand an APA102 5050 144 LED/m strip which was purchased several years ago for this purpose and given the frame circumference, will provide around 96 pixels. It is the waterproof version so has been embedded in silicone which adds to the weight; and unfortunately has started to yellow slightly - though will do for this project.
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](_MG_3346.jpg) | ![Image](_MG_3348.jpg) | ![Image](_MG_3345.jpg)
+ 
 
 
 *This more fully developed concept should include consideration of the interaction scheme, technical functionality, fabrication approach, materials to be used, and aesthetic.*
