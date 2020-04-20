@@ -95,7 +95,7 @@ I have on hand an APA102 5050 144 LED/m strip which was purchased several years 
 ---------------------- | ---------------------- | ----------------------
 ![Image](_MG_3345.jpg) | ![Image](_MG_3348.jpg) | ![Image](_MG_3346.jpg)
  
-
+![Image](_MG_3351.jpg)
 
 *This more fully developed concept should include consideration of the interaction scheme, technical functionality, fabrication approach, materials to be used, and aesthetic.*
 
