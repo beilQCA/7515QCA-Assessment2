@@ -107,7 +107,7 @@ The next step will be to test the LED strip hooked up to the Pi and a 5V power s
 
 <span>                | <span>                 
 ---------------------- | ---------------------- 
-![Image](SolidworksModel.jpg) | ![Image](BaseFrame.jpg) 
+![Image](SolidworksModel.jpg) | ![Image](BaseFrame.JPG) 
 
 I have designed the support framework in SolidWorks with the intention of manufacturing in steel or combination steel and aluminium. A quote has been sought and the cost may determine if the project goes ahead or not.
 
