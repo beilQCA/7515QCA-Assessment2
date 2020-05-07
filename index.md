@@ -42,9 +42,8 @@ I had taken the prototype as far as currently possible; having designed the part
 
 <span>                | <span>                 
 ---------------------- | ---------------------- 
-![Image](Clock_screencapture2.jpg) | ![Image](Clock_screencapture.jpg) 
+![Image](Clock_screencapture2.jpg) | ![Image](clockface.jpg)
  
-![Image](clockface.jpg)
 
 At the heart of the clock is the Micro:Bit and the new HD Halo breakout board which contains a plethora of added features including 60 tiny 'ZIP' RGB LED's, a real-time clock, a microphone and a traditional AA battery cage mounted on the back to name a few. I thought about how I could expand on this and began trawling through my arsenal of electronic paraphenalia for inspiration. I found a meter of 2mm side-lit optic fibre and immediately contemplated using this with the onboard LEDs. I ordered another 5m and set about designing the clock 'face-plate' that would accommodate lengths of optic fibre for each of the 60 LEDs. The idea being that this would represent the second-hand illuminating each in sequence to enhance the visual effect of the clock.
 
