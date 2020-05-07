@@ -132,7 +132,27 @@ Ensure you include comments about the choices you've made along the way.*
 
 *You will probably have a range of images and screenshots. Any test videos should be uploaded to YouTube or other publicly accessible site and a link provided here.*
 
+BoM
 
+300mm x 300mm x 20mm steel plate - 46.0
+2 x 20mm aluminium angle brackets - 8.0
+20mm x 20mm x 1800mm black anodised aluminium tubing - 26.0
+Black satin spray paint - 18.0
+NEMA 17 low profile stepper motor - 26.0
+A4988 Step Stick Stepper Motor Driver Module With Heatsink - 6.0
+TP4056 5V Micro USB Lithium Bat Charging NEW Improved LiPo Charger Mod - 4.0
+12v 30w dc motor - 24.0
+8mm to 5mm coupler - 16.0
+D-shaft 4 x 128mm x 4mm rod - 21.0
+GT2 20t pulley - 5.0
+GT2 60t pulley - 12.0
+GT2 6mm x 120mm belt - 8.0
+2 x 4mm x 13mm ball bearings - 8.0
+raspberry pi zero wifi - 16.0
+APA102 rgb led strip 144/m - 30.0
+dc-dc buck converter - 7.0
+series 500 self drilling screws - 8.0
+pine board - 12.0
 
 ### Interaction flowchart ###
 *Draw a draft flowchart of what you anticipate the interaction process in your project to be. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
