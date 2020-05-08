@@ -129,7 +129,7 @@ The motor and LiPo battery charger module arrived today, so that will be the nex
  
 <span>                | <span>                 | <span>                 | <span>                 
 ---------------------- | ---------------------- | ---------------------- | ----------------------
-![Image](_MG_3437.jpg) | ![Image](_MG_3439.jpg) | ![Image](_MG_3444.jpg) | ![Image](_MG_3445.jpg)
+![Image](_MG_3437.jpg) | ![Image](_MG_.jpg) | ![Image](_MG_3444.jpg) | ![Image](_MG_3445.jpg)
 
 
 
