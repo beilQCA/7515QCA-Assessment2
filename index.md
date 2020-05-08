@@ -123,7 +123,16 @@ A quick and dirty jig was created out of timber to test out the stepper motor, p
 ---------------------- | ---------------------- | ----------------------
 ![Image](_MG_3430.jpg) | ![Image](_MG_3434.jpg) | ![Image](_MG_3435.jpg)
  
+I've started construction of the framework, with the aim to create a very robust and rigid housing for the globe. Beginning with the drilling and mounting of the cast aluminium angle brackets. The metalwork is thoroughly cleaned before being coated in a black satin-finish metal enamel. Four hours later, the reverse side is done. The aluminium is cut to size and the sections joined using pre-fab heavy duty plastic corner joiners. Large clear rubber stoppers will be glued to the bottom surface - providing a shock-absorbing cushion to the device.
+
+The motor and LiPo battery charger module arrived today, so that will be the next thing to tackle. First I need to locate some rubber mat or similar to be used as a gasket - providing a buffer between the metal plate and the motor, as well as some threaded 4mm rod so that I can customize the lengths needed to secure the motor to the plate. This will replace the existing M4 bolts that connect the base plate with the top plate.
  
+<span>                | <span>                 | <span>                 | <span>                 
+---------------------- | ---------------------- | ---------------------- | ----------------------
+![Image](_MG_3437.jpg) | ![Image](_MG_3439.jpg) | ![Image](_MG_3444.jpg) | ![Image](_MG_3445.jpg)
+
+
+
 
 *In this section, show your progress including whichever of the following are appropriate for your project at this point.
 a.	Technical development. Could be code screenshots, pictures of electronics and hardware testing, video of tests. 
