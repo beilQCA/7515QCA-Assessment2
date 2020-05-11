@@ -167,7 +167,7 @@ Ensure you include comments about the choices you've made along the way.*
 * 3mm x 50mm x 1m neoprene rubber - 8.0
 * 5mm x 1m carbon fibre rod - 16.0
 * M4 self locking nuts - 4.0
-* 4m x 1m threaded rod - 3.0
+* 4mm x 1m threaded rod - 3.0
 
 
 
