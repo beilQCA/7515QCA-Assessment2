@@ -148,8 +148,7 @@ Time for the first test!
 
 The motor leads are connected to the lab power and cranked up. Video showing this below...
 
-[![Infrastructure test video]({_MG_3479.jpg})]({https://vimeo.com/418260176} "Infrastructure Test")
-
+[![vimeo test video](_MG_3479.JPG)](https://vimeo.com/418260176)
 
 
 ### BoM ###
