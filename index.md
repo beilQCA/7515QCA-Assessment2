@@ -132,14 +132,25 @@ The motor and LiPo battery charger module arrived today, so that will be the nex
 ![Image](_MG_3437.jpg) | ![Image](_MG_3439.jpg) | ![Image](_MG_3444.jpg) | ![Image](_MG_3445.jpg)
 
 
+OK, so I've finally got the infrastructure sorted. I took the steel plate to Scotts Metal at Woolloongabba to get the holes drilled for mounting the motor. Holes were drilled for the clear rubber stoppers at each of the four corners on the bottom face of the base-plate. The screws were used as anchors in the holes filled with glue. 
+
+The screws holding the bottom and top plates together on the motor were removed so that I could custom cut threaded rod for it which is threaded through the bottom of the steel plate, up through the holes in the bottom of the motor and screwed through the top plate. A piece of neoprene rubber is cut as a gasket and slipped between the base-plate and the motor's bottom plate. The threaded rod is then cut and locked tight with self-locking nuts on both ends.
+
+Next, I spray paint the 3D print matt black so now the bulk of the mechanical structure is black and unobtrusive.
+
+The carbon fiber rod is cut to length, pushed through the central roles in the 3D print and glued in place.
+
+A hole is cut in the internal face of the top aluminium beam to house the bearing.
+
+The bearing is pushed over the top end of the carbon fibre rod, the bottom end of the rod is placed in the coupler, then the bearing pushed up into hole.
+
+Time for the first test!
+
+The motor leads are connected to the lab power and cranked up. Video showing this below...
+
+[![Infrastructure test video]({_MG_3479.jpg})]({https://vimeo.com/418260176} "Infrastructure Test")
 
 
-*In this section, show your progress including whichever of the following are appropriate for your project at this point.
-a.	Technical development. Could be code screenshots, pictures of electronics and hardware testing, video of tests. 
-b.	Fabrication. Physical models, rough prototypes, sketches, diagrams of form, material considerations, mood boards, etc.
-Ensure you include comments about the choices you've made along the way.*
-
-*You will probably have a range of images and screenshots. Any test videos should be uploaded to YouTube or other publicly accessible site and a link provided here.*
 
 ### BoM ###
 
@@ -152,16 +163,10 @@ Ensure you include comments about the choices you've made along the way.*
 * TP4056 5V Micro USB Lithium Bat Charging NEW Improved LiPo Charger Mod - 4.0
 * 12v 30w dc motor - 24.0
 * 8mm to 5mm coupler - 16.0
-* D-shaft 4 x 128mm x 4mm rod - 21.0
-* GT2 20t pulley - 5.0
-* GT2 60t pulley - 12.0
-* GT2 6mm x 120mm belt - 8.0
-* 2 x 4mm x 13mm ball bearings - 8.0
+* 2 x 5mm x 10mm ball bearings - 10.0
 * raspberry pi zero wifi - 16.0
 * APA102 rgb led strip 144/m - 30.0
-* dc-dc buck converter - 7.0
 * series 500 self drilling screws - 8.0
-* pine board - 12.0
 * washers - 4.0
 * M4 bolts with self locking nuts - 4.0
 * 3mm x 50mm x 1m neoprene rubber - 8.0
@@ -171,6 +176,12 @@ Ensure you include comments about the choices you've made along the way.*
 
 
 
+*In this section, show your progress including whichever of the following are appropriate for your project at this point.
+a.	Technical development. Could be code screenshots, pictures of electronics and hardware testing, video of tests. 
+b.	Fabrication. Physical models, rough prototypes, sketches, diagrams of form, material considerations, mood boards, etc.
+Ensure you include comments about the choices you've made along the way.*
+
+*You will probably have a range of images and screenshots. Any test videos should be uploaded to YouTube or other publicly accessible site and a link provided here.*
 
 ### Interaction flowchart ###
 *Draw a draft flowchart of what you anticipate the interaction process in your project to be. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
