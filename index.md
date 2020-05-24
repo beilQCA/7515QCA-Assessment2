@@ -165,10 +165,33 @@ In the meantime, I have installed piduino on my windows machine so that I can cr
 Have been going crazy trying to get all components working on a single MCU. Have a LOLIN32 which I can communicate over Bluetooth with from my underdevelopment phone app, but is incompatible with the FastLED library and for which there doesn't appear to be a solution. Have tried 
 Raspberry Pi Zero W but there is issues getting Arduino code running on it from cross-compiled code. Have tried an Adafruit Feather HUZZAH ESP8266 board but it has library incompatibilities with FastLED in addition to it being limited to 3.3v logic. 
 
-Given the LOLIN32 gives me both external (fast) interrupt handling and bluetooth for phone comms, and given the Adafruit Dotstar library will work with it I will attempt to use this instead of FastLED.
+Given the LOLIN32 provides both external (fast) interrupt handling and bluetooth for phone comms, and given the Adafruit Dotstar library will work with it I will attempt to use this instead of FastLED.
 
 I have also been developing the Android phone app and have tested communication between it and the LOLIN32 - so at least this works and I can send text (for now) which I'd like to have for demonstration... clearly I will not be able to deliver MPEG as was my original intent.
 
+I've found a branched version of FastLED library which addresses support for ESP32 (et al) boards and have tested this works. Thrilled! Into the bargain, my newly ordered 144/m APA102 strip arrived so I removed the low-density one from the rotor and replaced it pronto. Now I have a much more impressive 46 LED's replacing the meagre 19 of the old strip.
+
+<span>                | <span>                 | <span>                  
+---------------------- | ---------------------- | ---------------------- 
+![Image](_MG_3544.jpg) | ![Image](_MG_3547.jpg) | ![Image](_MG_3556.jpg) 
+
+Not happy with the power situation to the motor - plug-in for on and pull-the-plug for off, I think about a way to enable this to be controlled from the phone app. Luckily I had ordered 4 ESP32 boards (my philosophy as always "why buy one when you can buy more") which I put to the task. This turned out to be a bit of a challenge, as I needed to be able to identify and control it separately from the one controlling the display. As it turned out, I set it up using BluetoothLE, configuring an advertised service with characteristics as required by the protocol. This used to trigger a relay module connecting the motor to the 12v power. A buck-converter was used to syphon off and reduce the 12v to 5v for the ESP32. This turned out to be a real headache which took a full day to resolve... As it happens, I found out the hard way that the ESP32 board for unknown reasons will not trip the coil in the relay (but illuminates the LED to indicate so). Given it is a 5v relay, one would expect the 5v pin from the MCU would provide required power to activate it... apparently not! The 3.3v pin does!!! GRRR! It only required sacrificing 2 of the 4 ESP32 boards (yep killed em) to rectify this!
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](_MG_3560.jpg) | ![Image](_MG_3561.jpg) | ![Image](_MG_3573.jpg)
+
+LiPo battery with USB charging module and voltage step-up converter module for powering the rotor display.
+
+![Image](_MG_3577.jpg)
+
+
+
+<span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](_MG_3578.jpg) | ![Image](_MG_3580.jpg) | ![Image](_MG_3581.jpg)
+ 
+ 
 ### BoM ###
 
 * 300mm x 300mm x 20mm steel plate - 46.0
@@ -178,11 +201,13 @@ I have also been developing the Android phone app and have tested communication 
 * NEMA 17 low profile stepper motor - 26.0
 * A4988 Step Stick Stepper Motor Driver Module With Heatsink - 6.0
 * TP4056 5V Micro USB Lithium Bat Charging NEW Improved LiPo Charger Mod - 4.0
+* 1200mAh LiPo Battery - 10.0
+* DC-DC buck converter - 5.0
 * 12v 30w dc motor - 24.0
 * 8mm to 5mm coupler - 16.0
 * 2 x 5mm x 10mm ball bearings - 10.0
-* raspberry pi zero wifi - 16.0
-* APA102 rgb led strip 144/m - 30.0
+* 4 x WEMOS LOLIN32 microcontrollers - 36.0
+* 500mm APA102 rgb led strip 144/m - 45.0
 * series 500 self drilling screws - 8.0
 * washers - 4.0
 * M4 bolts with self locking nuts - 4.0
@@ -190,6 +215,7 @@ I have also been developing the Android phone app and have tested communication 
 * 5mm x 1m carbon fibre rod - 16.0
 * M4 self locking nuts - 4.0
 * 4mm x 1m threaded rod - 3.0
+* black abs housing box - 4.0
 
 
 
