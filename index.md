@@ -196,7 +196,7 @@ https://vimeo.com/422691962
 
 Image of the phone app - still under development but at least operational for demonstration purposes!
 
-![Image](_MG_3634.jpg) 
+![Image](_MG_3634.JPG) 
 
 ### BoM ###
 
