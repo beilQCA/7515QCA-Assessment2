@@ -192,6 +192,19 @@ LiPo battery with USB charging module and voltage step-up converter module for p
 ![Image](_MG_3578.jpg) | ![Image](_MG_3580.jpg) | ![Image](_MG_3581.jpg)
  
  
+Have been working on mobile app interface... am able to send text real-time from phone and select colours to apply to it... I created an alphabet used as a lookup table to map received characters to ones representable on the LED strip. I was able to remotely turn the motor on and off until about 30mins ago... turns out the vibrations caused one of the 12v relay leads to work its way loose and touched the LOLIN32 subsequently frying it :( This is now 3 boards gone through for this one piece of functionality... totally not worth it!
+
+I received another 'variant' of the ESP32-WROOM board, today and am frantically trying to get the relay code uploaded to it but it is beginning to look like the board is faulty as it returns a fatal error when attempting to upload the sketch... have contacted the supplier to get someone to give me the required configuration data for the Arduino IDE as I'm only guessing what these are and getting no-where fast.
+
+My itty bitty APA102 2020 200/m led strips arrived lunch-time today... unfortunately it's just too late to hook these up for tonights demo. They look awesome and will produce spectacular results when it's all working as planned.
+
+I've come to the realisation that this project was just a little too ambitious under the C-19 circumstances which plagued part logistics... and many of the exemplars I've looked at have spent many more months developing this type of system. I think I've done a stellar job given this. 
+
+Video of this mornings demo showing remote power control...
+
+https://vimeo.com/422686145
+
+
 ### BoM ###
 
 * 300mm x 300mm x 20mm steel plate - 46.0
@@ -216,7 +229,8 @@ LiPo battery with USB charging module and voltage step-up converter module for p
 * M4 self locking nuts - 4.0
 * 4mm x 1m threaded rod - 3.0
 * black abs housing box - 4.0
-
+-----------------------------------
+## ~ $330 ##
 
 
 *In this section, show your progress including whichever of the following are appropriate for your project at this point.
