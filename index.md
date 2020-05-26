@@ -204,6 +204,11 @@ Video of this mornings demo showing remote power control...
 
 https://vimeo.com/422686145
 
+Demonstration showing bluetooth phone app sending text to display and changing colour of text on the fly.
+
+https://vimeo.com/422691962
+
+
 
 ### BoM ###
 
